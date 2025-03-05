@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 450px;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.question {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.option:hover {
+  background: #e0e0e0;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.button {
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
